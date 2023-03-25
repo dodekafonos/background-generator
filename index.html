@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body id="fundo">
-    
-    <h1>Gerador de Plano de Fundo</h1>
-    <input class="cor1" type="color" name="cor1" id="" value="#1a4d46">
 
-    <input class="cor2" type="color" name="cor2" id="" value="#8c1d1d">
+    <div class="container">
 
-    <h2>Plano de fundo atual</h2>
+        <h1>Gradient Generator</h1>
+        <hr>
+        <h2>Current background</h2>
+        <h3 id="cor1-txt">Left: </h3> 
+        <h3 id="cor2-txt">|| Right: </h3>
+        
+        <br> <br>
 
-    <h3 id="cor1-txt">
-        Primeira cor: 
-    </h3> 
+        <h2>CSS for this background</h2>
+        <p id="cheat"></p> 
 
-    <h3 id="cor2-txt">
-        Segunda cor: 
-    </h3>
+    </div>
 
-    <h2>Código CSS para este plano de fundo:</h2>
-    <h3  id="cheat"></h3> 
+    <div class="colors">
+        <input class="cor1" type="color" name="cor1" id="" value="#1a4d46">
+        <input class="cor2" type="color" name="cor2" id="" value="#8c1d1d">
+
+    </div>
+
+    <footer>
+        Made by Jonas
+    </footer>
 
 <script type="text/javascript" src="script.js"></script>
 

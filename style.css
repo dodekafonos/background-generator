@@ -1,28 +1,70 @@
+
 body {
-    font: 'Raleway', sans-serif;
+    height: 98vh;
+    font-family: 'Roboto', sans-serif;
     color: rgba(0, 0, 0, .5);
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-    background: linear-gradient(to right, #1a4d46, #8c1d1d);
+    letter-spacing: .2em;
+    background: linear-gradient(45deg, #1a4d46, #8c1d1d);
+}
+
+.container {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 60%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.colors {
+    margin: 20px auto;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 0px 10%;
+}
+
+input::-webkit-color-swatch {
+    border-radius: 8px;
+}
+input::-moz-color-swatch {
+    border-radius: 8px;
 }
 
 h1 {
-    font: 600 3em 'Raleway', sans-serif;
     color: rgba(0, 0, 0, .5);
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    width: 100%;
+    letter-spacing: .2em;
+    margin: 0px;
 }
 
 h3 {
-    font: 900 1em 'Raleway', sans-serif;
     color: rgba(0, 0, 0, .5);
     text-align: center;
-    text-transform: none;
     letter-spacing: .01em;
     display: inline;
+}
+
+#cheat {
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 4px;
+    padding: 5px;
+    font-family: monospace;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 40%;
+    right: 40%;
+    margin: auto;
 }
 
